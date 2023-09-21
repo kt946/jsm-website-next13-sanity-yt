@@ -18,16 +18,14 @@ const Filters = () => {
       setActive('');
 
       newUrl = formUrlQuery({
-        // @ts-ignore
-        params: searchParams.toString(),
+        params: searchParams?.toString() || '',
         keysToRemove: ['category'],
       });
     } else {
       setActive(link);
 
       newUrl = formUrlQuery({
-        // @ts-ignore
-        params: searchParams.toString(),
+        params: searchParams?.toString() || '',
         key: 'category',
         value: link.toLowerCase(),
       });
