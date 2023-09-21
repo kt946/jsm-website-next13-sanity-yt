@@ -3,6 +3,8 @@ import ResourceCard from '@/components/ResourceCard';
 import SearchForm from '@/components/SearchForm';
 import { getResources } from '@/sanity/actions';
 
+export const revalidate = 900;
+
 const Page = async () => {
   const resources = await getResources({
     query: '',
@@ -33,7 +35,6 @@ const Page = async () => {
                 id={resource._id}
                 image={resource.image}
                 downloadNumber={resource.views}
-                slug={resource._id}
               />
             ))
           ) : (
