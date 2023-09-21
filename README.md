@@ -1,3 +1,7 @@
+# JSM Resources Website Clone - Next.js, Sanity, Tailwind CSS, TypeScript
+
+![homepage_screenshot](https://github.com/kt946/jsm-website-next13-sanity-yt/assets/103476893/48ff75b5-3fda-48ba-aa09-b6ac61f8f902, 'Homepage Screenshot')
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
